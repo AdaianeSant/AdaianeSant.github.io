@@ -1,0 +1,282 @@
+html, body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 50;
+}
+
+#logo img{
+    width: 50px;
+    position: absolute;
+    margin-top: 4px;
+    margin-left: 13px;
+}
+
+#menu{
+    float: right;
+    margin-top: 0;
+    margin-right: 30px;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+li{
+    float: left;
+    padding: 20px 20px 22px 20px;
+}
+
+li:hover{
+    background-color: rgb(52, 52, 189);
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+#imagem_fundo{
+    background-image: url(img/mar1.png);
+    background-size: cover;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+#titulo{
+    color: rgba(4, 4, 43, 0.89);
+    text-shadow: rgb(52, 52, 189) 2px 2px;
+    padding-top: 10%;
+    margin: 0%;
+    font-size: 450%;
+}
+
+#subtitulo{
+    color:black;
+    text-shadow: darkslategrey 1px 1px;
+    font-size: 150%;
+    font-weight: 100%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-top: 3px black solid;
+}
+
+#acao{
+    color: black;
+    /*text-shadow: darkslategrey 1px 1px;*/
+    border: 2px black solid;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#top{
+    padding-top: 150px;
+}
+
+.paragrafo{
+    font-size: 100%;
+    text-align: left;
+}
+
+.icone{
+    width: 28%;
+    padding-top: 20%;
+    padding-left: 35%;
+    /*transform: translatex(50%);*/
+}
+
+
+.icone01{
+    width: 28px;
+    /*position: absolute;*/
+}
+
+#espaco01 img{
+    padding-left: 50px;
+}
+
+#espaco02 img{
+    padding-right: 30px;
+}
+
+.destaque{
+    background-color: #F6F5F0;
+    /*text-align: center;*/
+}
+
+/*#selecao{
+    padding: 20px;
+    /*text-align: center;*/
+
+section{
+    padding: 20px;
+    float: left;
+    text-align: center;
+}
+
+.imgeco{
+    /*padding: 20px;*/
+    width: 100%;
+    height: 40%;
+}
+
+#acao:hover{
+    background-color:rgb(52, 52, 189);
+    font-weight: 545;
+}
+
+.imgdestaque{
+    background-image: url(img/fundo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*.icone:hover{
+    background-color:rgb(255, 255, 255);
+    /*border-radius: 23px;
+    padding-top: 20%;
+    padding-right: 30%;
+    transform: translatex(50%);
+}*/
+
+img:hover{
+    transform: scale(1.022);
+}
+
+img{
+    transition: 500ms
+}
+
+#mapa{
+    width: 150px;
+    height: 150px;
+}
+
+.coluna{
+    float: left;
+    padding: 0% 5%;
+    position: relative; /*posição do elemento (div), vai variar, com base no elemento, que vem anteriormente (div ao lado esquerdo)*/
+    /*width: 40%;*/
+}
+
+.dois{
+    width: 40%;
+}
+
+.tres{
+    width: 29%;
+    padding: 0 2%;
+}
+
+.quatro{
+    width: 15%;
+    text-align: left;
+}
+
+#sobre img{
+    width: 100%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.topoprojeto{
+    padding-top: 38px;
+}
+
+.topodicas{
+    padding-top: 40px;
+}
+
+.topoeco{
+    padding-top: 40px;
+}
+
+.cor{
+    background-color: rgba(4, 4, 43);
+    text-align: left;
+}
+
+h2{
+    text-shadow: rgb(52, 52, 189) 1px 1px;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+#me img{
+    /*height: 75%;
+    width: 30%;*/
+    padding: 10%;
+}
+
+.topoeu{
+    padding-top: 5%;
+}
+
+#borda{
+    border-bottom: 3px navy;
+}
+
+hr{
+    width: 50%;
+}
+
+/*vai observar o tamanho da tela, que esta consumindo o site, e fazer as adpatações de acordo com as especificações*/
+@media all and (max-width: 768px){
+    #menu{
+        visibility: hidden;
+    }
+
+    .coluna, .dois, .tres, .quatro{
+        display:block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+
+    #logo{
+        text-align: center;
+    }
+
+    #logo img{
+        margin-left: 0%;
+        position: relative;
+    }
+
+    #titulo{
+        font-size: 365%;
+        padding-top: 32%;
+    }
+
+
+    #subtitulo{
+        font-size: 115%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    #top{
+        padding-top: 25px;
+    }
+    
+}
